@@ -1,17 +1,16 @@
-# League of Bullies Website
+# League of Bullies — Season 1 (Static Site)
 
-## Deploy Instructions
+This site is split into **multiple ZIP files**. To assemble:
 
-### GitHub Pages
-1. Upload all files from this folder into your GitHub repo.
-2. Push changes and enable GitHub Pages under repo settings.
+1. Create a folder on your machine named `LEAGUEOFBULLIES-SEASON1`.
+2. Extract **all** the ZIPs from this delivery **into that same folder** (allow merge/overwrite).
+3. Commit that folder to your GitHub repo (root recommended for GitHub Pages or Vercel).
 
-### Netlify
-1. Drag + drop this folder onto Netlify dashboard OR connect GitHub repo.
-2. Netlify will auto-detect and deploy.
+Zips:
+- `LOB_site_core.zip` — HTML/CSS/JS + empty `assets/` stub
+- `LOB_assets_part1.zip` — Base dog images (JAX, ASIA, MS.EUROPE)
+- `LOB_assets_part2.zip` — Capone, logo, Asia×Exodus flyer
+- `LOB_assets_part3.zip` — Puppies gallery + CashApp QR
+- `LOB_video.zip` — Preloader video (if available in your upload)
 
-Your site will be live! 🚀
-
----
-- Update `/assets` with your real images/videos (keep filenames the same).
-- Edit `style.css` for colors/fonts.
+> Missing assets will be replaced with labeled placeholder images so the site still builds and runs.
